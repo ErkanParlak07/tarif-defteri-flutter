@@ -1,16 +1,74 @@
-# tarif_defteri
+\# 🥑 Akıllı Tarif Defteri (Recipe App)
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Flutter ile geliştirilmiş, kullanıcıların yemek tariflerini keşfedebileceği, detaylarını inceleyebileceği ve favorilerine ekleyebileceği modern bir mobil uygulama.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Bu proje, \*\*Junior Flutter Developer\*\* yetkinliklerini (State Management, Navigation, Clean Architecture) sergilemek amacıyla geliştirilmiştir.
+
+
+
+\## 📱 Özellikler
+
+
+
+\* \*\*Tarif Listeleme:\*\* Yüksek performanslı `ListView.builder` ile optimize edilmiş liste görünümü.
+
+\* \*\*Detay Sayfası:\*\* Tariflerin malzemeleri, yapılış adımları ve süre bilgileri.
+
+\* \*\*Favori Yönetimi:\*\* `Provider` paketi kullanılarak geliştirilmiş favorilere ekleme/çıkarma sistemi.
+
+\* \*\*Resim Optimizasyonu:\*\* `cacheHeight` ve `cacheWidth` ile hafıza dostu görsel yükleme.
+
+\* \*\*Temiz Arayüz:\*\* Kullanıcı deneyimine (UX) odaklı, modern kart tasarımları.
+
+
+
+\## 🛠️ Kullanılan Teknolojiler ve Paketler
+
+
+
+\* \*\*Flutter \& Dart\*\*
+
+\* \*\*State Management:\*\* Provider
+
+\* \*\*Navigation:\*\* Flutter Navigator 1.0 (Push/Pop)
+
+\* \*\*Architecture:\*\* MVC Pattern (Model-View-Controller esintili klasör yapısı)
+
+\* \*\*Data:\*\* Local Mock Data \& Unsplash Images
+
+
+
+
+
+
+
+| Ana Sayfa | Detay Sayfası | Favoriler |
+
+
+
+
+
+
+
+\## 📂 Klasör Yapısı (Folder Structure)
+
+
+
+```text
+
+lib/
+
+├── models/         # Veri modelleri (Recipe Class)
+
+├── providers/      # State Management (RecipeProvider)
+
+├── screens/        # Uygulama sayfaları (Home, Detail, Favorites)
+
+├── widgets/        # Tekrar kullanılabilir UI parçaları (RecipeCard)
+
+└── main.dart       # Uygulamanın başlangıç noktası
+
