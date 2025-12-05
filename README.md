@@ -48,7 +48,7 @@ Bu proje, \*\*Junior Flutter Developer\*\* yetkinliklerini (State Management, Na
 
 | Ana Sayfa | Detay Sayfası | Favoriler |
 
-
+| (./screenshots/anaekran.png) | (./screenshots/favori.png) | (./screenshots/tarifekranı.png) |
 
 
 
